@@ -1,6 +1,6 @@
 {
   "name": "ramda-mapobjdeep",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A deep version of ramda.js mapObj",
   "main": "index.js",
   "scripts": {
