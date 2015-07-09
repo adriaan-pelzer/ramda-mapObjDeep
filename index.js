@@ -2,8 +2,15 @@ var R = require ( 'ramda' );
 
 module.exports = function ( func, obj ) {
     return R.mapObj ( function ( value ) {
-        if ( R.type ( value ) === 'Object' || R.type ( value ) === 'Array' ) {
+        var o;
+
+        if ( R.type ( value ) === 'Object' ) {
             return module.exports ( func, value );
+        }
+
+        if ( R.type ( value ) === 'Array' ) {
+            o = module.exports ( func, value );
+            return Object.keys ( o ).map ( function ( key ) { return o[ key ] } );
         }
 
         return func ( value );
