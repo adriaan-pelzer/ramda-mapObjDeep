@@ -29,4 +29,24 @@ It's as simple as that. It does the same as the [ramda.js](http://ramdajs.com/) 
             fourteen: 'fourteen'
         },
     } );
+
+    /*
+    {
+        number: 13,
+        numbers: [ 13, 14, 15 ],
+        numbersObj: {
+            twelve: 13,
+            thirteen: 14,
+            fourteen: 15
+        },
+        string: 'twelve(not a number)',
+        strings: [ 'twelve(not a number)', 'thirteen(not a number)', 'fourteen(not a number)' ],
+        numbersObj: {
+            twelve: 'twelve(not a number)',
+            thirteen: 'thirteen(not a number)',
+            fourteen: 'fourteen(not a number)'
+        },
+    }
+    */
+    
 ```
