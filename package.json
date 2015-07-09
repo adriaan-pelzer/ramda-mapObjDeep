@@ -1,0 +1,27 @@
+{
+  "name": "ramda-mapobjdeep",
+  "version": "1.0.0",
+  "description": "A deep version of ramda.js mapObj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriaan-pelzer/ramda-mapObjDeep.git"
+  },
+  "keywords": [
+    "ramda",
+    "js",
+    "mapObj"
+  ],
+  "author": "Adriaan Pelzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriaan-pelzer/ramda-mapObjDeep/issues"
+  },
+  "homepage": "https://github.com/adriaan-pelzer/ramda-mapObjDeep#readme",
+  "dependencies": {
+    "ramda": "^0.15.1"
+  }
+}
